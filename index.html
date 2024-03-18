@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/c6d8086dc8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div>
+      <header>
+        <div id="Logo">
+          <a href="index.html">
+            <img
+              width="200.8"
+              height="91.8"
+              src="Imagenes/LOGO Final.png"
+              alt="Logo"
+            />
+          </a>
+        </div>
+        <nav>
+          <input type="checkbox" id="check" />
+          <label for="check" class="checkbtn">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+          <ul style="list-style: none" d>
+            <li><a href="">Noticias</a></li>
+            <li><a href="">Consejos</a></li>
+            <li><a href="">Guías</a></li>
+            <li><a href="">Juegos</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section class="Seccion_1">
+          <div class="Acerca_de_imagen">
+            <img
+              width="512"
+              height="288"
+              class="Imagenes_Avatares"
+              src="Imagenes/personajes-populares-videojuegos.jpeg"
+              alt="avatares"
+            />
+          </div>
+          <div class="Acerca_de_texto">
+            <h2>¿Que es Boss Mind?</h2>
+            <p>
+              BOSS MIND es una página web diseñada para compartir información
+              sobre videojuegos, abarcando desde noticias hasta consejos. Mi
+              objetivo como creador de este portal es proporcionar conocimientos
+              a los amantes de los videojuegos, permitiéndoles alcanzar el
+              siguiente nivel no solo en sus partidas, sino también en otros
+              aspectos. Esto incluye conocer más sobre los e-sports para tener
+              la oportunidad de participar en ellos, comprender la industria del
+              gaming para identificar a aquellos apasionados por ingresar en
+              ella y dejar que su imaginación florezca, ofreciendo en el futuro
+              los videojuegos más increíbles, transmitir consejos que ayuden a
+              los novatos a experimentar el grato placer de completar un nivel o
+              derrotar a un enemigo admirable después de mucho esfuerzo. Espero
+              que disfruten navegando por esta página tanto como yo disfruté
+              creándola.
+            </p>
+          </div>
+        </section>
+        <section class="Seccion_2">
+          <div class="Ultimos_lanzamientos">
+            <h2 id="Ultimos_lanzamientos">Últimos lanzamientos</h2>
+          </div>
+          <div class="Ultimos_lanzamientos_cajas">
+            <div class="Lies of P">
+              <div class="Imagenes_videojuegos">
+                <img
+                  width="384"
+                  height="233"
+                  src="Imagenes/Lies-of-P-Header.webp"
+                  alt="Lies_of_P"
+                />
+              </div>
+              <div class="Descripciones_juegos">
+                <p>
+                  Lies of P te sumerge en la oscura ciudad de Krat, donde una
+                  marioneta mecánica llamada Pinocho busca a su creador,
+                  Geppetto. En este RPG de acción desafiante, inspirado en el
+                  clásico cuento de Pinocho, te enfrentarás a enemigos grotescos
+                  en un combate brutal, utilizando espadas y garras mientras
+                  personalizas tu estilo de juego con diferentes armas y brazos
+                  de la legión. Tus decisiones y las mentiras que dices
+                  influirán en el desarrollo de la historia y te acercarán a uno
+                  de los múltiples finales. Lies of P te atrapará con su
+                  atmósfera gótica, su banda sonora melancólica y su profunda
+                  narrativa que explora la verdad, la humanidad y la identidad.
+                  Prepárate para este juego único que llegará en 2023 a
+                  PlayStation, Xbox y PC.
+                </p>
+              </div>
+            </div>
+            <div class="Atomic_Heart">
+              <div class="Imagenes_videojuegos">
+                <img
+                  width="384"
+                  height="233"
+                  src="Imagenes/atomic-heart_1440x810_wmk.webp"
+                  alt="Atomic_Hearth"
+                />
+              </div>
+              <div class="Descripciones_juegos">
+                <p>
+                  En Atomic Heart, te adentras en una realidad alternativa de
+                  1955, donde la Unión Soviética domina el mundo gracias a la
+                  tecnología. Te pones en la piel del P-3, un agente especial
+                  enviado a la Instalación 3826 para investigar un accidente.
+                  Sin embargo, pronto descubrirás que algo terrible ha sucedido:
+                  robots y criaturas mutantes se han rebelado, sembrando el caos
+                  en la instalación. Tu misión será combatir a estas hordas
+                  usando un arsenal de armas y habilidades especiales,
+                  incluyendo poderes telequinéticos y eléctricos. Explora un
+                  mundo abierto lleno de secretos, resuelve puzles desafiantes y
+                  toma decisiones que afectarán el desarrollo de la historia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <form action="" method="get" class="formulario" id="form">
+          <div class="form-row">
+            <label for="nombre">Nombre</label>
+            <input id="nombre" name="nombre" type="text" />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="pepe@gmail.com"
+            />
+          </div>
+          <div class="form-row">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+          <div class="form-row">
+              <button>Enviar</button>
+          </div>
+          <p class="alertar" id="alertas"></p>
+        </form>
+      </main>
+      <footer>
+        <nav>
+          <h2>
+            <a href="https://www.youtube.com/watch?v=MTGsZTWd9Xk"
+              >No tengo redes p mi kong</a
+            >
+          </h2>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
